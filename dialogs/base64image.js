@@ -550,13 +550,44 @@ CKEDITOR.dialog.add("base64imageDialog", function (editor) {
                                 type: "text",
                                 width: "45px",
                                 id: "hmargin",
-                                label: "EEEEEEEEEEEEEEEEEE",
+                                label: editor.lang.base64image.hSpace,
                             },
                             {
                                 type: "text",
                                 width: "45px",
                                 id: "border",
                                 label: editor.lang.base64image.border,
+                            },
+                        ],
+                    },
+                ],
+            },
+            {
+                id: "tab-acessibilidade",
+                label: "Acessibilidade",
+                elements: [
+                    {
+                        type: "hbox",
+                        widths: ["34%", "33%", "33%"],
+                        style: "margin-top:10px;",
+                        children: [
+                            {
+                                type: "text",
+                                width: "60px",
+                                id: "data-size-normal",
+                                label: "Padrão",
+                            },
+                            {
+                                type: "text",
+                                width: "60px",
+                                id: "data-size-ampliada",
+                                label: "Prova ampliada",
+                            },
+                            {
+                                type: "text",
+                                width: "60px",
+                                id: "data-size-super",
+                                label: "Prova super ampliada",
                             },
                         ],
                     },

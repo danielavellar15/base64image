@@ -8,5 +8,5 @@ CKEDITOR.plugins.setLang("base64image","pt-br",{
 	"lockRatio":"Travar Proporções",
 	"vSpace":"VSpace",
 	"hSpace":"HSpace",
-	"border":"Borda"
+	"border":"Bordinha"
 });

@@ -431,6 +431,7 @@ CKEDITOR.dialog.add("base64imageDialog", function (editor) {
                 cssvalue,
                 attrvalue,
                 k;
+            console.log("attr :>> ", attr);
             for (k in attr) {
                 value = t.getValueOf("tab-properties", k);
                 attrvalue = value;
